@@ -1,0 +1,52 @@
+.logo{
+    height: 20px;
+    width: 20px;
+
+}
+
+.footer{
+    height: 500px;
+    margin-top: 3rem;
+    
+    
+}
+
+.fab{
+    font-size: 35px;
+    
+}   
+
+.fa-facebook-square{
+    color:#4c6ef5;
+}
+
+.fa-instagram{
+    color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-whatsapp{
+    color: #25D366;
+}
+
+.item{
+    justify-content: center;
+    display: flex;
+}
+
+.contact{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.title-footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info{
+    flex-direction: column;
+}
