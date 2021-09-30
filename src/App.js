@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 
 import Title from './components/Title';
 import Footer from './components/Footer';
+import Slide from './components/Slide';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div className="container">
         <NavBar/>
         <Title/>
+        <Slide/>
         <Card/>
         <Footer/>
       </div>

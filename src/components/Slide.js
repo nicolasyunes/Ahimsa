@@ -6,31 +6,35 @@ export default class Slide extends Component {
     render() {
         return (
             <div id="carouselExampleIndicators" className="carousel slide col-9 justify-content-center" data-bs-ride="carousel" >
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                    <img src={aceite} className="d-block w-100" alt="..."/>
+                <div
+                id="intro-example"
+                className="p-5 text-center bg-image"
+                style={{"background-image": "url('https://mdbcdn.b-cdn.net/img/new/slides/041.jpg')"}}>
+                        <div className="mask" style={{"background-color": "rgba(0, 0, 0, 0.7)"}}>
+                            <div className="d-flex justify-content-center align-items-center h-100">
+                                <div className="text-white">
+                                    <h1 className="mb-3">Learn Bootstrap 5 with MDB</h1>
+                                    <h5 className="mb-4">Best & free guide of responsive web design</h5>
+                                    <a
+                                        className="btn btn-outline-light btn-lg m-2"
+                                        href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                                        role="button"
+                                        rel="nofollow"
+                                        target="blank"
+                                        >Start tutorial</a
+                                    >
+                                    <a
+                                        className="btn btn-outline-light btn-lg m-2"
+                                        href="https://mdbootstrap.com/docs/standard/"
+                                        target="blank"
+                                        role="button"
+                                        >Download MDB UI KIT</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="carousel-item">
-                    <img src={crema} className="d-block w-100" alt="..."/>
                     </div>
-                    <div className="carousel-item">
-                    <img src={aceite} className="d-block w-100" alt="..."/>
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-</div>
         )
     }
 }

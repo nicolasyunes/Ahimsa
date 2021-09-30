@@ -50,3 +50,28 @@
 .info{
     flex-direction: column;
 }
+
+.contact-title{
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    display: flex;
+}
+
+.contact-container{
+    
+    padding:20px;
+}
+
+.contact-text{
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.contact-input{
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+    background-color:antiquewhite;
+    padding:20px;
+}

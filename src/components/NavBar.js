@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import "./NavBar.css"
-import image from "../assets/aceite.jpg"
+import logo from "../assets/logo.jpg"
+import "./NavBar.css"
 export default class NavBar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-inherit">
             <div className="container-fluid">
             <a className="navbar-brand" href="#!">
-            <div className=""> 
+            <div className="container-nav"> 
 
-                <img className="text-hide" src={image}  alt="ahimsa cbd ">
+                <img className="text-hide" src={logo}  alt="ahimsa cbd ">
                     
                 </img>
                 <span className="m-2"></span>

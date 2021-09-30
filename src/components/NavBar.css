@@ -1,7 +1,9 @@
 .text-hide{
    
-    height: 3   0px;
-    width: 30px;
+    height: 150px;
+    width: 150px;
     object-fit:cover;
-    border-radius: 5px;
+    border-radius: 50px;
+    ;
+
 }
